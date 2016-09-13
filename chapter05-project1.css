@@ -24,48 +24,60 @@ body {
 
 article {
    background-color: #F5F5F5;
-
+	margin: 5em 10em 5em 25em;
 }
 
 
 
 figure {    
-
+	float: left;
+	position: relative;
 }
 figcaption {
    width: 140px;
    background-color: black;
    color:white;
    height: 20px;
-
+   padding: .3em;
+   position: absolute;
+	top: 125px;
+	left: 1px;
 }
 .overlayed {
-
+	position: absolute;
+	top:0px;
+		
 }
 
 .entry {
    overflow: auto;
    border-top: 1pt solid #ff8800;
+   float: clear;
 }
 
 .linkbutton {
    background-color: #ff8800;
    color: white;
    text-decoration: none; 
-   font-size: 0.75em;   
+   font-size: 0.75em;
+	padding: .5em;
+	float: right;
 }
 
 
 footer {
    background-color: #474747;
    color: #cacaca;
+      padding: 2em;
 }
 footer h2 { color: #a4a1a1; }   
 .footer-related {
    border-top: 1pt solid #ff8800;
+   width: 20em;
+   padding-right: 2em;
+	float: left;
 }
-.footer-section{
-
+.footer-section {
    border-top: 1pt solid #ff8800;
 }
 .footer-related img { margin: 3px; }
